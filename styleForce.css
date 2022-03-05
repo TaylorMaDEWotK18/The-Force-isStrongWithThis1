@@ -1,0 +1,46 @@
+html {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  color: #0f7c21;
+  text-align: center;
+}
+body {
+  background: linear-gradient(rgba(44, 53, 45, 0.7), rgba(23, 240, 15, 0.5)), url(https://starwarsblog.starwars.com/wp-content/uploads/2017/05/yoda-advice-featured-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+li {
+  display: inline;
+  padding: 0 auto;
+  margin: 0 10px;
+}
+h1 {
+  font-size: 100px;
+  margin: 10px;
+  padding-top: -100px;
+  height: 100%;
+}
+/*p {
+  color: white;
+  background-color: gold;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Class Rules */
+.navs{
+  background-color:  rgba(23, 240, 15, 0.5);
+  border: 10px solid #0f7c21;
+  border-radius: 8px;
+}
+.navs:hover{
+  transition: .7s;
+  border-color: white;
+}
+a {
+  color: white;
+}
+/* ID Rules */
+#fix {
+  margin-right: -3px;
+}
